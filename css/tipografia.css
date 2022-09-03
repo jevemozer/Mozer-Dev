@@ -14,6 +14,6 @@
 }
 
 .font-2-xxl {
-  font-family: 500 3rem/1.125 "Old Fenris", serif;
+  font: 500 3rem/1.125 "Old Fenris", serif;
   text-transform: uppercase;
 }

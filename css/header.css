@@ -10,8 +10,10 @@
   margin-bottom: 3rem;
 }
 
-.menu-logo {
+.header-titulo {
+  margin-left: 40px;
   text-shadow: 3px 5px 5px rgb(0 0 0 / 50%);
+  color: #00aeff;
   cursor: pointer;
 }
 
