@@ -1,0 +1,15 @@
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 0px 40px;
+}
+.sobre-conteudo img {
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+.sobre-descricao {
+}

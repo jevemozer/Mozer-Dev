@@ -10,14 +10,8 @@
   margin-bottom: 3rem;
 }
 
-.header-titulo {
-  font-family: "Old Fenris", serif;
-  font-weight: 500;
-  font-size: 3rem;
-  text-transform: uppercase;
-  margin-left: 40px;
+.menu-logo {
   text-shadow: 3px 5px 5px rgb(0 0 0 / 50%);
-  color: #00aeff;
   cursor: pointer;
 }
 

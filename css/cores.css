@@ -9,7 +9,7 @@
   --cor-8: #555351;
   --cor-9: #484645;
 
-
+  --cor-s1: #00aeff;
 }
 
 .cor-0 {
@@ -41,4 +41,8 @@
 }
 .cor-9 {
   color: var(--cor-9);
+}
+
+.cor-s1 {
+  color: var(--cor-s1);
 }

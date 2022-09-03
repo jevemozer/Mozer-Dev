@@ -5,8 +5,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dev Mozer</title>
-  <meta name="description" content="Desenvolvedor Front End.">
+
+<!--Global site tag-->
+  <title>FreeLancer - Front End | Criação de site | Santa Catarina - SC</title>
+  <meta name="description" content="FreeLancer, Front End, Criação de Sites, Landing Pages, Marketing Digital, Front End, WordPress, HTML, CSS, Javascript">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jeverson Mozer - Programador Web | FreeLancer | Santa Catarina">
+  <meta property="og:description" content="FreeLancer, Front End, Criação de Sites, Landing Pages, Marketing Digital, Front End, WordPress, HTML, CSS, Javascript">
+  <meta property="og:url " content="http://mozerdev.com"> <!--url do site-->
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
   <link rel="stylesheet" href="./css/style.css">
 
 
@@ -19,116 +28,182 @@
 
 <body>
 
-  <header class="header container">
-    <a href="./">
-      <h1 class="header-titulo">
-        < MOZER DEV />
-      </h1>
-    </a>
-    <nav>
-      <ul class="header-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#servicos">Serviços</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
+  <header class="menu-bg">
+    <div class="menu">
+      <div class="menu-logo">
+        <a class="font-2-xxl" href="#">
+          < MOZER DEV />
+        </a>
+      </div>
 
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
+  <!--Home-->
+  <main class="home-bg" id="home" aria-label="Home">
+    <div class="home">
 
-  <main class="home container" id="home" aria-label="Home">
+      <div class="home-imagem">
+        <img src="./img/steroidtocat-removebg-preview.png" alt="">
+      </div>
 
-    <div class="home-imagem">
-      <img src="./img/steroidtocat-removebg-preview.png" alt="">
-    </div>
-    
-    <div class="home-conteudo">
-      <h1 class="font-2-xxl">Jeverson Mozer</h1>
-      <p class="font-1-m">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nam placeat quia? Architecto, impedit, tempore eum reprehenderit consequatur rerum modi voluptates eveniet esse similique beatae, eligendi quis quaerat rem earum!
-      </p>
-    </div>
-
-
-
-  </main>
-
-  <section class="sobre" id="sobre" aria-label="Sobre">
-    <div class="container">
-      <img src="./img/_R1AVPU3-removebg-preview.png" alt="ALGUMA IMAGEM ALEATÓRIA" width="360" height="360">
-
-      <div>
-        <h2 class="subtitulo font-1-xxl">Sobre</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aliquid beatae, eum sapiente dignissimos, consequatur excepturi aspernatur enim odio porro magni ex blanditiis? Velit nulla laborum dolorem veritatis eligendi ipsum.</p>
-
-        <button class="button">Solicite um orçamento</button>
+      <div class="home-conteudo">
+        <h1>Jeverson Mozer</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nam placeat quia? Architecto, impedit, tempore eum reprehenderit consequatur rerum modi voluptates eveniet esse similique beatae, eligendi quis quaerat rem earum!
+        </p>
       </div>
     </div>
+  </main>
+
+  <!--Sobre-->
+  <section class="sobre" id="sobre" aria-label="Sobre">
+
+    <div class="sobre-img">
+      <img src="./img/photo_5177019726398860056_y.jfif" alt="ALGUMA IMAGEM ALEATÓRIA">
+    </div>
+
+    <div class="sobre-info">
+      <h2>Sobre</h2>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aliquid beatae, eum sapiente dignissimos, consequatur excepturi aspernatur enim odio porro magni ex blanditiis? Velit nulla laborum dolorem veritatis eligendi ipsum.</p>
+
+      <button class="button">Solicite um orçamento</button>
+    </div>
+
   </section>
 
-  <section class="servicos container" id="servicos" aria-label="Serviços">
-    <div>
-      <h2 class="subtitulo font-1-xxl"> Serviços</h2>
-    </div>
+  <!--Serviços-->
+  <section class="servicos" id="servicos" aria-label="Serviços">
+
+    <h1> Serviços</h1>
 
     <div class="servicos-box">
-      <article class="post">
-        <div class="post">
+
+      <article>
+        <div class="servico-iten">
           <img src="./" alt="IMAGEM ALEATORIA">
           <div>
-            <h3>Design responsivo</h3>
-            <p>Sites modernos e responsivos</p>
+            <h2>Design responsivo</h2>
+            <p>Sites modernos e responsivos que se adaptam a qualquer tamanho de tela.</p>
           </div>
         </div>
       </article>
 
-      <article class="post">
-        <div class="post">
+      <article>
+        <div class="servico-iten">
           <img src="./" alt="IMAGEM ALEATORIA">
           <div>
-            <h3>Front End</h3>
-            <p>Front-end com as tecnologias HTML, CSS e Javascript, para tornar a experiência do usuário.</p>
+            <h2>Front End</h2>
+            <p>Front-end com as tecnologias HTML, CSS e Javascript, para tornar a experiência do usuário inesquecível.</p>
           </div>
         </div>
       </article>
 
-      <article class="post">
-        <div class="post">
+      <article>
+        <div class="servico-iten">
           <img src="./" alt="IMAGEM ALEATORIA">
           <div>
-            <h3>Landind Pages</h3>
+            <h2>Landind Pages</h2>
             <p>Páginas de captura de leads de alta conversão.</p>
           </div>
         </div>
       </article>
 
-      <article class="post">
-        <div class="post">
+      <article>
+        <div class="servico-iten">
           <img src="./" alt="IMAGEM ALEATORIA">
           <div>
-            <h3>Landind Pages</h3>
-            <p>Páginas de captura de leads de alta conversão.</p>
+            <h2>Técnicas SEO</h2>
+            <p>Seu site no topo das pesquisas do Google, técnica essencial para otimizar o posicionamento nos sites de forma orgânica.</p>
           </div>
         </div>
       </article>
     </div>
   </section>
 
+  <!--Projetos-->
+  <section class="projetos" id="projetos" aria-label="Projetos">
 
+    <h1>Projetos</h1>
 
+    <div class="projetos-iten">
+      <a target="_blank" href="https://jevemozer.github.io/bikcraft/">
+        <img src="./img/bikecrafit.jpg" alt="Bikcraft">
+        <div class="iten-info">
+          <h2>Bikecraft</h2>
+          <p>Projeto do curso de HTML e CSS Origamid</p>
+        </div>
+      </a>
+    </div>
 
+    <div class="projetos-iten">
+      <a target="_blank" href="https://jevemozer.github.io/bikcraft/">
+        <img src="./img/bikecrafit.jpg" alt="Bikcraft">
+        <div class="iten-info">
+          <h2>Bikecraft</h2>
+          <p>Projeto do curso de HTML e CSS Origamid</p>
+        </div>
+      </a>
+    </div>
 
+    <div class="projetos-iten">
+      <a target="_blank" href="https://jevemozer.github.io/bikcraft/">
+        <img src="./img/bikecrafit.jpg" alt="Bikcraft">
+        <div class="iten-info">
+          <h2>Bikecraft</h2>
+          <p>Projeto do curso de HTML e CSS Origamid</p>
+        </div>
+      </a>
+    </div>
 
+    <div class="projetos-iten">
+      <a target="_blank" href="https://jevemozer.github.io/bikcraft/">
+        <img src="./img/bikecrafit.jpg" alt="Bikcraft">
+        <div class="iten-info">
+          <h2>Bikecraft</h2>
+          <p>Projeto do curso de HTML e CSS Origamid</p>
+        </div>
+      </a>
+    </div>
+  </section>
 
+  <!--Contato-->
+  <section class="contato" id="contato" aria-label="Contato">
 
+    <h1>Contato</h1>
+    <p>Diga olá! ou me chame nas redes sociais. </p>
 
-  <footer>
+    <div class="form-container">
+      <form id="form_orcamento" method="post" action="./" class="formphp">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" required placeholder="Nome">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required placeholder="Email">
+        <label for="telefone">Telefone</label>
+        <input type="text" name="telefone" id="telefone" required placeholder="Telefone">
+        <label for="mensagem">Escreva aqui sua mensagem!</label>
+        <textarea name="mensagem" id="mensagem" required placeholder="Mensagem"></textarea>
+        <button id="enviar" name="enviar" type="submit" class="button">Enviar</button>
+      </form>
+    </div>
+  </section>
 
-
+  <!--Footer-->
+  <footer class="footer">
+    <p>Copyright © 2022| Desenvolvido por Jeverson Mozer.</p>
   </footer>
+
+  <!--Arquivos JS-->
 
 </body>
 
