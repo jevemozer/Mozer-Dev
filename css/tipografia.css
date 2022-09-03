@@ -1,0 +1,17 @@
+
+.font-1-m {
+  font: 400 1.5rem/1.35 "Alegreya Sans", sans-serif;
+}
+
+
+
+.font-1-xl {
+  font: 500 2rem/1.05 "Alegreya Sans", sans-serif;
+  letter-spacing: 0.015em;
+}
+.font-2-xxl {
+  font: 400 2.5rem/1.05 "Old Fenris", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-shadow: 3px 5px 5px rgb(0 0 0 / 50%);
+}

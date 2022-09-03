@@ -1,73 +1,44 @@
---navbar-background-color: rgba(36, 37, 38, 0.8);
---navbar-background-color-no-blur: rgba(36, 37, 38, 0.95);
---navbar-menu-background-color: #18191b;
---navbar-button-color-primary: #a50905;
---navbar-button-color-primary-hover: #dd0707;
+:root {
+  --cor-0: #d2c8ae;
+  --cor-1: #e5e0c8;
+  --cor-2: #f6f8f0;
+  --cor-3: #aa9480;
+  --cor-4: #74726f;
+  --cor-5: #878582;
+  --cor-6: #b0afac;
+  --cor-8: #555351;
+  --cor-9: #484645;
 
---ivory-text-base-color: #d2c8ae;
 
---color-background-100: #0a0d15;
---color-background-300: #151c28;
---color-background-500: #232a39;
---color-background-700: #323a48;
---color-darken-100: rgba(0, 0, 0, 0.05);
---color-darken-300: rgba(0, 0, 0, 0.1);
---color-darken-400: rgba(0, 0, 0, 0.15);
---color-darken-500: rgba(0, 0, 0, 0.3);
---color-darken-600: rgba(0, 0, 0, 0.5);
---color-darken-700: rgba(0, 0, 0, 0.7);
---color-darken-800: rgba(0, 0, 0, 0.9);
---color-darken-900: #000;
---color-content-100: hsla(0, 0%, 100%, 0.05);
---color-content-300: hsla(0, 0%, 100%, 0.1);
---color-content-400: hsla(0, 0%, 100%, 0.15);
---color-content-500: hsla(0, 0%, 100%, 0.3);
---color-content-600: hsla(0, 0%, 100%, 0.5);
---color-content-700: hsla(0, 0%, 100%, 0.7);
---color-content-800: hsla(0, 0%, 100%, 0.9);
---color-content-900: #fff;
---color-accent-500: rgba(93, 113, 152, 0.4);
---color-accent-600: rgba(93, 113, 152, 0.6);
---color-accent-700: rgba(93, 113, 152, 0.8);
---color-primary-500: #009dff;
---color-primary-500-inverse: #0074e0;
---color-primary-600: #33b1ff;
---color-primary-700: #66c4ff;
---shadow-xs: 0 1px 3px 0rgba (0, 0, 0, 0.12);
---color-success-500: #00ff94;
---color-error-500: #f31d77;
---line-height-default: 1;
---filter-100: brightness(100%) contrast(100%);
---filter-200: brightness(210%) contrast(90%);
---transition-hover-speed: 0.1s;
---transition-hover: colorvar(--transition-hover-speed) ease,
-  background-color var(--transition-hover-speed) ease,
-  filter var(--transition-hover-speed) ease,
-  border-color var(--transition-hover-speed) ease;
---navbar-background-color: rgba(40, 45, 67, 0.8);
---navbar-background-color-no-blur: rgba(34, 38, 57, 0.95);
---navbar-background-blur: 20px;
---navbar-font-color: var(--color-content-900);
---navbar-link-padding-md: 0var (--size-100);
---navbar-link-padding-lg: 0var (--size-150);
---navbar-link-padding-xl: 0var (--size-200);
---navbar-button-padding-md: 0var (--size-150);
---navbar-button-padding-lg: 0var (--size-200);
---navbar-button-padding-xl: 0var (--size-300);
---navbar-button-border-radius: var(--size-100);
---navbar-button-font-color: var(--color-content-900);
---navbar-button-color-primary: #0c94ec;
---navbar-button-color-primary-hover: #25a2f4;
---navbar-button-color-secondary: #060c11;
---navbar-button-color-secondary-hover: #101723;
---navbar-icon-color: var(--color-content-900);
---navbar-menu-background-color: #171926;
---navbar-menu-background-color--secondary: var(--color-darken-500);
---navbar-menu-badge-background-color: #1fb8ff;
---navbar-blizzard-logo-color: #00aeff;
---navbar-z-index: 99;
---navbar-negative-margin: calc(var(--size-700) * -1);
---navbar-mobile-dropdown-duration: 250ms;
---navbar-logo-size: var(--size-1000);
---navbar-mobile-logo-size: var(--size-500);
---navbar-logo-color: var(--navbar-blizzard-logo-color);
+}
+
+.cor-0 {
+  color: var(--cor-0);
+}
+.cor-1 {
+  color: var(--cor-1);
+}
+.cor-2 {
+  color: var(--cor-2);
+}
+.cor-3 {
+  color: var(--cor-3);
+}
+.cor-4 {
+  color: var(--cor-4);
+}
+.cor-5 {
+  color: var(--cor-5);
+}
+.cor-6 {
+  color: var(--cor-6);
+}
+.cor-7 {
+  color: var(--cor-7);
+}
+.cor-8 {
+  color: var(--cor-8);
+}
+.cor-9 {
+  color: var(--cor-9);
+}
