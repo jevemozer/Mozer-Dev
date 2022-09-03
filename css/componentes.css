@@ -1,5 +1,5 @@
 .container {
-  max-width: 90%;
+  max-width: auto;
   box-sizing: border-box;
   padding-top: 20px;
   padding-bottom: 20px;

@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 1.25rem;
+  height: 80px;
   margin-top: 1rem;
   background-color: rgba(36, 37, 38, 0.8);
   border-radius: 8px;
@@ -12,7 +13,7 @@
 .header-titulo {
   font-family: "Old Fenris", serif;
   font-weight: 500;
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-transform: uppercase;
   margin-left: 40px;
   text-shadow: 3px 5px 5px rgb(0 0 0 / 50%);

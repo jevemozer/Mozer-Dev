@@ -2,10 +2,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
+  
 }
 .home-conteudo {
   text-align: left;
   align-self: center;
+  height: 100px;
 }
 .home-conteudo h1 {
   margin-bottom: 2rem;
