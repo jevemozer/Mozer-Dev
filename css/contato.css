@@ -1,0 +1,63 @@
+.contato {
+  display: grid;
+  max-width: 600px;
+  padding: 2rem 1rem;
+  overflow: hidden;
+}
+.contato h1 {
+  text-align: center;
+}
+.contato p {
+  margin-bottom: 0.625rem;
+  text-align: center;
+}
+.form-container {
+  display: grid;
+  padding: 2rem 0;
+}
+.form-orcamento {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+.form-container label {
+  display: block;
+  margin-bottom: 0.25rem;
+  visibility: hidden;
+  position: absolute;
+  height: 0px;
+}
+
+.form-container input {
+  font-size: 1rem;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  display: inline-block;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  background: linear-gradient(
+    117deg,
+    rgba(10, 13, 21, 1) 0%,
+    rgba(21, 28, 40, 1) 40%,
+    rgba(35, 42, 57, 1) 70%,
+    rgba(58, 70, 95, 1) 100%
+  );
+  border-radius: 0.625rem;
+  margin-bottom: 1rem;
+}
+.form-container textarea {
+  resize: none;
+  height: 250px;
+}
+.form-container .button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}

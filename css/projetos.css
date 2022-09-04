@@ -1,13 +1,11 @@
 .projetos {
   display: grid;
-
 }
 .projetos h1 {
   padding: 3rem 0rem 1rem 0rem;
   text-align: left;
-
 }
-.projetos-box{
+.projetos-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
@@ -50,12 +48,15 @@
   text-align: center;
 }
 
-@media(max-width:720px) {
+@media (max-width: 720px) {
   .projetos-box {
     grid-template-columns: 1fr;
   }
   .projetos-item p {
     padding-bottom: 0;
     max-width: 30ch;
+  }
+  .projetos h1 {
+    padding: 1rem 0rem 1rem 0rem;
   }
 }

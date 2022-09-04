@@ -1,0 +1,20 @@
+.redes {
+  text-align: center;
+  padding: 2rem 0;
+}
+.redes-sociais ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.redes-sociais ul li a {
+  display: block;
+  padding: 0.25rem;
+  transition: 100ms ease-in;
+}
+.redes-sociais ul li a img {
+  display: block;
+  max-width: 100px;
+  height: 50px;
+}
