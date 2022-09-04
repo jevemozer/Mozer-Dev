@@ -1,0 +1,13 @@
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: rem;
+  gap: 2rem;
+}
+
+.sobre-img {
+  display: block;
+  max-width: 250px;
+}

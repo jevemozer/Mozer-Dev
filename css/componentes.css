@@ -1,13 +1,11 @@
 .container {
-  max-width: auto;
+  max-width: 1140px;
   box-sizing: border-box;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  margin: 0 auto;
 }
 .button {
-  text-decoration: none;
   padding: 0 12px;
   border-radius: 8px;
   text-align: center;
@@ -15,10 +13,9 @@
   max-width: max-content;
   border: none;
   color: #fff;
-  line-height: 1;
   font-size: 1.125rem;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  min-height: 3rem;
+  padding: 0.313rem 0.625rem;
   background-color: #a50905;
 }
 
