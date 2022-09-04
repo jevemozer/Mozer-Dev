@@ -7,8 +7,8 @@
   --cor-5: #878582;
   --cor-6: #b0afac;
   --cor-8: #555351;
-  --cor-primaria: ##009dff;
-  --cor-primaria-inversa: ##0074e0;
+  --cor-primaria: #00aeff;
+  --cor-primaria-hover: #66c4ff;
   --cor-bg-body: #0a0d15;
 }
 
@@ -42,8 +42,8 @@
 .cor-primaria {
   color: var(--cor-primaria);
 }
-.cor-primaria-inversa {
-  color: var(--cor-primaria-inversa);
+.cor-primaria-hover {
+  color: var(--cor-primaria-hover);
 }
 .cor-bg-body {
   color: var(--cor-bg-body);
