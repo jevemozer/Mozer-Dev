@@ -1,8 +1,8 @@
 .container {
-  max-width: 1140px;
+  max-width: 980px;
   box-sizing: border-box;
   padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
+  padding-bottom: 2rem;
   margin: 0 auto;
 }
 .button {

@@ -1,0 +1,48 @@
+.servicos {
+  display: grid;
+}
+.servicos h1 {
+  padding: 3rem 0rem 1rem 0rem;
+  text-align: left;
+}
+.servicos-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.servico-iten {
+  display: block;
+  min-height: 240px;
+  padding: 1rem;
+  background: linear-gradient(
+    117deg,
+    rgba(10, 13, 21, 1) 0%,
+    rgba(21, 28, 40, 1) 40%,
+    rgba(35, 42, 57, 1) 70%,
+    rgba(58, 70, 95, 1) 100%
+  );
+  border-radius: 0.625rem;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.servico-iten h2 {
+  padding-bottom: 1rem;
+}
+.servico-iten p {
+  padding-bottom: 2rem;
+  max-width: 50ch;
+}
+
+@media(max-width:720px) {
+  .servicos-box {
+    grid-template-columns: 1fr;
+  }
+}
