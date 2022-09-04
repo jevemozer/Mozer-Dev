@@ -1,6 +1,7 @@
 :root {
   --cor-text-corpo: #d2c8ae;
-  --cor-p: #878582;
+  --cor-h2: #E5E0C8;
+  --cor-p: #AA9480;
   --cor-primaria: #00aeff;
   --cor-primaria-hover: #66c4ff;
   --cor-bg-body: #000;
@@ -9,11 +10,11 @@
 .cor-text-corpo {
   color: var(--cor-text-corpo);
 }
+.cor-h2 {
+  color: var(--cor-h2);
+}
 .cor-p {
   color: var(--cor-p);
-}
-.cor-8 {
-  color: var(--cor-8);
 }
 .cor-primaria {
   color: var(--cor-primaria);
