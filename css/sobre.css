@@ -29,6 +29,9 @@
 .sobre-chamada {
   padding: 0 1rem;
 }
+.sobre-chamada .button {
+  display: flex;
+}
 .sobre-chamada h2 {
   padding-bottom: 1rem;
   font-family: "Poppins" Arial, Helvetica, sans-serif;
