@@ -19,6 +19,7 @@
   cursor: pointer;
 }
 
+
 .menu-logo a:hover {
   color: var(--cor-primaria-hover);
 }
@@ -31,17 +32,43 @@
 .menu-nav ul a {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 600;
-  display: block;
+  display: inline-block;
   padding: 8px;
   border-radius: 0.5rem;
   color: #fff;
   line-height: 1.5;
   font-size: 1.125rem;
+  position: relative;
+}
+
+.menu-nav ul a::after {
+content: "";
+display: block;
+height: 2px;
+width: 0%;
+background-color: var(--cor-primaria-hover);
+margin-top: 2px;
+transition: 0.3s;
+position: absolute;
+}
+
+.menu-nav ul a:hover::after, .menu-nav ul a.ativo::after {
+  width: 90%;
+}
+
+.menu-nav ul a.button:hover::after{
+  width: 0%;
 }
 
 .menu-nav ul a:hover {
   background-color: rgba(36, 37, 38, 0.95);
 }
+
+@media (max-width: 900px) {
+  .menu {
+    justify-content: center;
+  }
+
 
 @media (max-width: 500px) {
   .menu {
