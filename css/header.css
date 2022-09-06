@@ -52,7 +52,7 @@ transition: 0.3s;
 position: absolute;
 }
 
-.menu-nav ul a:hover::after, .menu-nav ul a.ativo::after {
+.menu-nav ul a:hover::after {
   width: 90%;
 }
 
