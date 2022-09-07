@@ -1,7 +1,7 @@
 .contato {
   display: grid;
   max-width: 600px;
-  padding: 2rem 1rem;
+  padding: 4rem 0rem;
   overflow: hidden;
 }
 .contato h1 {
@@ -29,7 +29,8 @@
   height: 0px;
 }
 
-.form-container input {
+.form-container input,
+.form-container textarea {
   font-size: 1rem;
   color: inherit;
 }
@@ -61,4 +62,17 @@
   border: none;
   display: block;
   margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+  .contato h1 {
+    font-size: 2rem;
+    padding: 2rem 0rem 1rem 0rem;
+    text-align: center;
+  }
+  .contato p {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
 }

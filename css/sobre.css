@@ -1,5 +1,7 @@
 .sobre-bg {
   background: #0a0d15;
+  padding: 5rem 0rem;
+  margin-top: 1rem;
 }
 
 .sobre {
@@ -7,7 +9,7 @@
   grid-template-columns: 1fr 2fr 1fr;
   justify-content: center;
   align-items: center;
-  padding: 8rem 1rem;
+  padding: 8rem 0rem;
   gap: 2rem;
   text-align: left;
 }
@@ -53,7 +55,20 @@
 @media (max-width: 500px) {
   .sobre-info h2 {
     font-size: 2.5rem;
+    padding-bottom: 1rem;
   }
+  .sobre-info p {
+    font-size: 1.125rem;
+    padding-bottom: 1rem;
+  }
+  .sobre-chamada p {
+    padding-bottom: 1rem;
+    font-size: 1.125rem;
+  }
+  .sobre-chamada h2 {
+    padding-bottom: 1rem;
+  }
+
   .sobre-chamada {
     text-align: center;
   }
